@@ -1,6 +1,6 @@
 # Cenário GCC C++
 
-Utilize este cenário para aprender a escrever o seu primeiro código C++ utilizando o sistema operacional Ubuntu e o GNU Compiler Collection, o conjunto de compiladores padrão do Projeto GNU.
+Utilize este cenário para aprender a criar o seu primeiro código C++, compilá-lo e executá-lo, utilizando o sistema operacional Ubuntu e o GNU Compiler Collection (GCC), o conjunto de compiladores padrão do Projeto GNU.
 
 ## Descrição
 
@@ -15,7 +15,7 @@ Em dois passos, você irá criar o código do Hello World utilizando a linguagem
 ## Pré-requisitos Skills
 
 Para iniciantes na programação C++ no Ubuntu Linux.
-Necessário conhecimento préio do editor de texto em linha de comando VI.
+Necessário conhecimento prévio do editor de texto em linha de comando VI.
 
 ## Índice
 
