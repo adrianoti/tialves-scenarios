@@ -4,10 +4,6 @@ Utilize este cenário para aprender a escrever o seu primeiro código C++ utiliz
 
 ## Descrição
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
-
 Em dois passos, você irá criar o código do Hello World utilizando a linguagem C++, salvando em um arquivo de código C++ com a extensão .cpp. E, em seguida, você irá compilá-lo utilizando o compilador G++ que está incluso no GCC. 
 
 ## Objetivos de Aprendizagem

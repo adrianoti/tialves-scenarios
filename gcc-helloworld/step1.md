@@ -7,7 +7,7 @@ Crie seu arquivo de programa Hello World em C++, digitando o seguinte comando no
 
 Agora, digite o código do Hello World abaixo no seu arquivo aberto ou copie e cole dentro do arquivo. 
 
-<pre class="file" data-target="clipboard">
+<pre data-target="clipboard">
 <code class="language-c++">
 #include <iostream>
 
