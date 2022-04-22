@@ -1,20 +1,11 @@
 
-On the finish page, summarize what was just learned:
+Neste cenário você aprendeu:
 
-- 3-4 bullets
-- of what you just
-- did and learned
+- Criar seu primeiro programa em C++
+- Como compilar, transformando o seu código fonte C++ em um programa executável
+- Executou o seu primeiro programa em C++. O clássico primeiro programa Hello World!
 
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
-
-## Further Learning
-
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+Obrigado por buscar conhecimento em programação C++ utilizando este cenário!
+U+1F9D1 U+1FAF3 U+2328
 
 

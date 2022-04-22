@@ -8,7 +8,7 @@ Para isso, execute o compilador G++ passando como parâmetro de entrada seu arqu
 
 Pronto! Se tudo ocorreu bem, temos o nosso primeiro programa executável em C++, chamado helloworld. Para executá-lo digite o seguinte comando:
 
-`.\helloworld`{{execute}}
+`./helloworld`{{execute}}
 
 
 
