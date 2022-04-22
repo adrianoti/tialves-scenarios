@@ -1,8 +1,8 @@
 {
-  "title": "GCC C++ HelloWorld",
-  "description": "Criando primeiro programa em C++ no GCC",
+  "title": "New Scenario Template",
+  "description": "A simple scenario example.",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "3 minutes",
   "details": {
     "steps": [
       {
@@ -16,14 +16,11 @@
       {
         "title": "Step 3",
         "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
