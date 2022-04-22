@@ -16,4 +16,9 @@ int main()
     std::cout << "Olá, Mundo!" << std::endl;
     return 0;
 }
-```{{copy}}
+``` 
+{{copy}}
+
+Após digitar ou copiar o código dentro do arquivo, feche o arquivo salvando-o com o comando:
+
+`:wq`{{execute}}
