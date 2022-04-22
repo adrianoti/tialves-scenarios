@@ -1,8 +1,18 @@
-# Heading for Step 1
+# Criando seu Hello World em C++
 
-This is some text.
+Crie seu arquivo de programa Hello World em C++, digitando o seguinte comando no terminal ao lado:
 
-Here's a single line of runnable code:
+`vi helloworld.cpp`{{execute}}
 
-`printf 'Hello, world!\n\n'`{{execute}}
 
+Agora, digite o código do Hello World abaixo no seu arquivo aberto ou copie e cole dentro do arquivo. 
+
+<pre class="file" data-target="clipboard">
+#include <iostream>
+
+int main()
+{
+    std::cout << "Olá, Mundo!" << std::endl;
+    return 0;
+}
+</pre>
