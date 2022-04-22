@@ -1,6 +1,6 @@
 # Criando seu Hello World em C++
 
-1.1. Crie seu arquivo de programa Hello World em C++, digitando o seguinte comando no terminal ao lado:
+1.1. Crie seu arquivo de programa Hello World em C++, utilizando o editor de texto de linha de comando VI, digitando o seguinte comando no terminal ao lado:
 
 `vi helloworld.cpp`{{execute}}
 
