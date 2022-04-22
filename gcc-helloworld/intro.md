@@ -1,31 +1,27 @@
-# New Scenario Template (Your Title Here)
+# Cenário GCC C++
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Utilize este cenário para aprender a escrever o seu primeiro código C++ utilizando o sistema operacional Ubuntu e o GNU Compiler Collection, o conjunto de compiladores padrão do Projeto GNU.
 
-## Description
+## Descrição
 
 2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
 
 Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
 
-## Learning Objective
+Em dois passos, você irá criar o código do Hello World utilizando a linguagem C++, salvando em um arquivo de código C++ com a extensão .cpp. E, em seguida, você irá compilá-lo utilizando o compilador G++ que está incluso no GCC. 
 
-- 3-4 bullets
-- of what you
-- will learn
+## Objetivos de Aprendizagem
 
-## Prerequisite Skills
+- Escrever seu primeiro código na liguagem C++
+- Utilizar o compilador G++ para compilar o código e gerar o binário executável do seu primeiro programa
+- Executar seu primeiro programa no terminal
 
-Define the target audience here, and list any prerequisite skills. For example:
+## Pré-requisitos Skills
 
-This is for software developers with prior experience using Jenkins to deploy web applications.
+Para iniciantes na programação C++ no Ubuntu Linux.
 
-## Table of Contents
+## Índice
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+Este cenário não está relacionado com nenhum outro.
 
 
