@@ -15,6 +15,7 @@ Em dois passos, você irá criar o código do Hello World utilizando a linguagem
 ## Pré-requisitos Skills
 
 Para iniciantes na programação C++ no Ubuntu Linux.
+Necessário conhecimento préio do editor de texto em linha de comando VI.
 
 ## Índice
 
