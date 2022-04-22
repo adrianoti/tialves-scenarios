@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "GCC C++ Scenario",
+  "description": "Creating a first C++ program with GCC",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
@@ -16,6 +16,10 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "step 4",
+        "text": "step4.md"
       }
     ],
     "intro": {
