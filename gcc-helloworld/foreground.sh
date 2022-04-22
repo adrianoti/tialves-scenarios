@@ -5,8 +5,3 @@
 #printf 'As such, this is a good place to install and configure anything you want to have ready for the learner before they get started.\n\n'
 #printf 'The file is named foreground.sh because when it executes, the commands are echoed to the terminal.\n\n'
 #printf 'To run a script in the background, so learners will not see it execute, specify it in the index.json as "background": "background.sh"\n\n'
-
-echo 'Este é um script shell bash'
-printf '\n'
-echo 'Qualquer comando que inserir aqui erá ser executado em tempo de execução.'
-printf '\n\n'
