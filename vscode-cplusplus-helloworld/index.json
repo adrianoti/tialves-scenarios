@@ -1,6 +1,6 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "VS Code C++ Hello World",
+  "description": "A simple scenario for programming C++ using VS Code.",
   "difficulty": "Beginner",
   "time": "3 minutes",
   "details": {
@@ -27,7 +27,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "ubuntu:2004"
