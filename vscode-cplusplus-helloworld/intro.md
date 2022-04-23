@@ -1,10 +1,10 @@
 # Cenário VS Code C++
 
-Utilize este cenário para aprender a criar o seu primeiro código C++, compilá-lo e executá-lo, utilizando o sistema operacional Ubuntu e o Visual Studio Code (VS Code).
+Utilize este cenário para aprender a criar o seu primeiro código C++, compilá-lo e executá-lo, utilizando o Visual Studio Code (VS Code).
 
 ## Descrição
 
-Em dois passos, você irá criar o código do Hello World utilizando a linguagem C++, salvando em um arquivo de código C++ com a extensão .cpp. E, em seguida, você irá compilá-lo e executá-lo utilizando o VS Code. 
+Em dois passos, você irá criar o código do Hello World utilizando a linguagem C++, salvando em um arquivo de código C++ com a extensão .cpp e, em seguida, você irá compilá-lo e executá-lo, tudo utilizando um pouco de comandos Shell Linux e o VS Code. 
 
 ## Objetivos de Aprendizagem
 
