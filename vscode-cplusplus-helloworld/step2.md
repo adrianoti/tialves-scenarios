@@ -26,15 +26,15 @@ Quando a tarefa se inicia, você deverá ver uma mensagem gerada em um segundo t
 
 2.5. Pressione qualquer tecla para voltar para o terminal integrado 1 e insira o comando ls para verificar o arquivo executável helloworld, resultado da compilação pelo G++.
 
-`ls`{{execute}}
+`ls`{{copy}}
 
 O resultado deverá se parecer com a da imagem abaixo.
 
 ![VS Code C++ Terminal helloworld file](./assets/VSCode_C++_Terminal_helloworld_file.png)
 
-2.6. Por fim, execute o seu primeiro programa executável, Hello World, em C++ compilado, inserindo o seguinte comando no terminal integrado.
+2.6. Agora, execute o seu primeiro programa executável, Hello World, em C++ compilado, inserindo o seguinte comando no terminal integrado.
 
-`./helloworld`{{execute}}
+`./helloworld`{{copy}}
 
 O resultado deverá se parecer com a da imagem abaixo. O programa Hello World imprime a frase "Olá, Mundo!" no terminal integrado do VS Code. 
 

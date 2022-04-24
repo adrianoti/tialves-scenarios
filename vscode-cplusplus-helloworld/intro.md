@@ -4,7 +4,7 @@ Utilize este cenário para aprender a criar o seu primeiro código C++, compilá
 
 ## Descrição
 
-Em dois passos, você irá criar o código do Hello World utilizando a linguagem C++, salvando em um arquivo de código C++ com a extensão .cpp e, em seguida, você irá compilá-lo e executá-lo, tudo utilizando um pouco de comandos Shell Linux e o VS Code. 
+Em três passos, você irá criar o código do Hello World utilizando a linguagem C++, salvando em um arquivo de código C++ com a extensão .cpp e, em seguida, você irá compilá-lo e executá-lo, tudo utilizando um pouco de comandos Shell Linux e o VS Code. 
 
 ## Objetivos de Aprendizagem
 
