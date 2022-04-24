@@ -38,4 +38,4 @@ O resultado deverá se parecer com a da imagem abaixo.
 
 O resultado deverá se parecer com a da imagem abaixo. O programa Hello World imprime a frase "Olá, Mundo!" no terminal integrado do VS Code. 
 
-![VS Code C++ Terminal helloworld file](./assets/VSCode_C++_Terminal_helloworld_file.png)
+![VS Code C++ Terminal helloworld file](./assets/VSCode_C++_Terminal_execute_helloworld.png)
