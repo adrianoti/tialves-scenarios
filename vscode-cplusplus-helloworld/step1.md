@@ -1,26 +1,26 @@
+# Instalar a Extensão C/C++
+
+1.1. No VS Code, clique no ícone de três pontos no menu lateral direito para acessar mais opções do menu e, em seguida, clique na opção "Extensions".
+
+![VS Code Menu Extensions](./assets/VSCode_menu_Extensions.png)
+
+1.2. Em "EXTENSIONS: MARKETPLACE", pesquise por "c++", selecione e instale a extensão C/C++ clicando em "Install".
+
+![VS Code Menu Extensions](./assets/VSCode_C++_Extension_install.png)
+
+Quando a instalação terminar, clique na opção "Reload Required", para reiniciar o VS Code.
+
 # Criando diretórios para os projetos C++ e para o projeto HelloWorld utilizando comandos de Shell Linux
 
-1.1. Crie um diretório chamado c++_projects utilizando o terminal.
+1.3. Crie um diretório chamado c++_projects utilizando o terminal.
 
 `mkdir c++_projects`{{execute}}
 
-1.2. Entre no diretório de projetos C++ criado e crie uma pasta para o projeto Hello World.
+1.4. Entre no diretório de projetos C++ criado e crie uma pasta para o projeto Hello World.
 
 `cd c++_projects`{{execute}}
 
 `mkdir helloworld`{{execute}}
-
-# Instalar a Extensão C/C++
-
-1.3. No VS Code, clique no ícone de três pontos no menu lateral direito para acessar mais opções do menu e, em seguida, clique na opção "Extensions".
-
-![VS Code Menu Extensions](./assets/VSCode_menu_Extensions.png)
-
-1.4. Em "EXTENSIONS: MARKETPLACE", pesquise por "c++", selecione e instale a extensão C/C++.
-
-![VS Code Menu Extensions](./assets/VSCode_C++_Extension_install.png)
-
-Quando a instalação terminar, clique na opção "reload", para reiniciar o VS Code.
 
 # Abrindo o diretório do projeto Hello World no VS Code
 
