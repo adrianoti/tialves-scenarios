@@ -4,7 +4,7 @@
 
 ![VS Code IDE Tab](./assets/Katacoda_Iframe_IDE_VSCode_Tab.png)
 
-1.2. No VS Code, clique no ícone de três pontos no menu lateral direito para acessar mais opções do menu e, em seguida, clique na opção "Extensions".
+1.2. No VS Code, clique no ícone referente a opção "Extensions", no menu lateral direito.
 
 ![VS Code Menu Extensions](./assets/VSCode_menu_Extensions.png)
 
