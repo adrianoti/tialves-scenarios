@@ -1,6 +1,6 @@
 # Instalar a Extensão Live Server no VS Code
 
-1.1. Clique na Tab IDE, conforme mostrado na figura abaixo, para carregar e acessar o VS Code. Caso não carregue automaticamente, clique em "Display port".
+1.1. Clique na Tab IDE, conforme mostrado na figura abaixo, para carregar e acessar o VS Code. Caso não carregue automaticamente, clique em "Display Port".
 
 ![VS Code IDE Tab](./assets/Katacoda_Iframe_IDE_VSCode_Tab.png)
 
@@ -88,5 +88,10 @@ A extensão Live Server cria um "Servidor Web" com a pasta do seu projeto Hello 
 
 ![VS Code Live Server Go Live Icon](./assets/VSCode_Live_Server_GoLive_port.png)
 
-1.12. Para visualizar sua primeira página web clique na "Web Browser Tab" para testar sua página na mesma janela do seu navegador já aberto ou clique na "Web Browser Placeholder Tab" para testar sua página em outra janela do seu navegdor padrão ou copie a URL gerada pela "Web Browser Placeholder Tab" para testar em outro navegador no seu dispositivo/computador.  
+1.12. Para visualizar sua primeira página web clique na "Web Browser Tab" para testar sua página na mesma janela do seu navegador já aberto ou clique na "Web Browser Placeholder Tab" para testar sua página em outra janela do seu navegdor padrão ou copie a URL gerada pela "Web Browser Placeholder Tab" para testar em outro navegador no seu dispositivo/computador. Caso necessário, informe a porta disponibilizada pelo Live Server: 5500 e clique no botão "Display Port" na "Web Browser Tab".
 
+![VS Code Live Server Go Live Icon](./assets/Katacoda_Iframe_WebBrowser_Tab_and_Placeholder_Tab.png)
+
+A sua primeira página deverá se parecer com a página abaixo.
+
+![VS Code Live Server Go Live Icon](./assets/Katacoda_Iframe_WebBrowser_Tab_Helloworld.png)
