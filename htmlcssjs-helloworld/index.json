@@ -27,7 +27,10 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uieditorpath": "/root/example",
+        "showide": true,
+        "idePort": 23000,
+        "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
