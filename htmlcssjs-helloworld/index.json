@@ -27,12 +27,16 @@
     }
   },
   "environment": {
-    "showdashboard": true,
-    "dashboards": [
-      {"name": "Web Browser Tab", "port": 5500},
-      {"name": "Web Browser Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-5500-[[KATACODA_HOST]].environments.katacoda.com"}
-    ],
-    "uilayout": "terminal-iframe"
+    "uieditorpath": "/root/example",
+        "showide": true,
+        "idePort": 23000,
+        
+        "showdashboard": true,
+        "dashboards": [
+          {"name": "Web Browser Tab", "port": 5500},
+          {"name": "Web Browser Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-5500-[[KATACODA_HOST]].environments.katacoda.com"}
+        ],
+        "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu:2004"
