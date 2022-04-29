@@ -42,7 +42,7 @@ Quando a instalação terminar, se solicitado, clique na opção "Reload Require
 
 ![VS Code Explorer HELLOWORLD File Name](./assets/VSCode_helloworld_indexhtml_name.png)
 
-1.9. Agora, dentro do arquivo HTML aberto no VS Code, digite "html" e utilize a sugestão Emmet Abbreviation "html:5", selecionando-a. O código padrão HTML5 é gerado automaticamente. O código gerado é o mesmo que é mostrado abaixo. Em seguida, tecle CTRL+S para salvar o arquivo, ou salve-o acessando o ícone de menu no canto superior esquerdo e, em seguida, no menu "File" clique na opção "Save".
+1.9. Agora, dentro do arquivo HTML aberto no VS Code, digite "html" e utilize a sugestão Emmet Abbreviation "html:5", selecionando-a. O código padrão HTML5 é gerado automaticamente. O código gerado é o mesmo mostrado abaixo. Em seguida, tecle CTRL+S para salvar o arquivo, ou salve-o acessando o ícone de menu no canto superior esquerdo e, em seguida, no menu "File" clique na opção "Save".
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ Quando a instalação terminar, se solicitado, clique na opção "Reload Require
 </html>
 ``` 
 
-1.10. Altere o código, colocando entre as tags <body> e </body> o trecho de código<h1> Hello World!</h1>, de forma a mostrarmos na nossa primeira página HTML a frase "Hello World!", ao ser visualizada em um browser. O código no arquivo final no VS Code deverá ficar como mostrado na figura abaixo. Lembre-se, também, de confirmar que a extensão do arquivo é .cpp
+1.10. Altere o código, colocando entre as tags "BODY" o trecho de código "<"h1">" Hello World! "<"/h1">", sem as aspas, de forma a mostrarmos na nossa primeira página HTML a frase "Hello World!", ao ser visualizada em um browser. O código no arquivo final no VS Code deverá ficar como mostrado na figura abaixo. Lembre-se, também, de confirmar que a extensão do arquivo é .html
 
 ```html
 <!DOCTYPE html>
