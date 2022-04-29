@@ -1,4 +1,4 @@
-# Instalar a Extensão Live Server
+# Instalar a Extensão Live Server no VS Code
 
 1.1. Clique na Tab IDE, conforme mostrado na figura abaixo, para carregar e acessar o VS Code. Caso não carregue automaticamente, clique em "Display port".
 
@@ -35,6 +35,8 @@ Quando a instalação terminar, se solicitado, clique na opção "Reload Require
 1.7. Na janela Open Folder, insira o caminho para o projeto Hello World: /root/html_css_js_projects/helloworld/ e clique em OK. No VS Code Explorer irá aparecer uma área referente ao diretório helloworld aberto: HELLOWORLD.
 
 ![VS Code Open Folder Hello World Path](./assets/VSCode_htmlcssjs_openfolder_helloworld_path.png)
+
+# Criando sua primeira página Web: index.html no VS Code
 
 1.8. No VS Code Explorer, na área HELLOWORLD, clicar no ícone referente a "Novo Arquivo". Em seguida, digite o nome do seu arquivo de código HTML: index.html e tecle ENTER.
 
@@ -73,4 +75,18 @@ Quando a instalação terminar, se solicitado, clique na opção "Reload Require
 </body>
 </html>
 ``` 
+
+# Visualizando sua primeira página Web em um Browser
+
+1.11. Vamos visualizar a nossa primeira página web até o momento. Clique na opção "Go Live" da extensão Live Server que aparece no canto inferior direito da janela de edição do seu código HTML ou clique com o botão direito do mouse no seu arquivo index.html no VS Code Explorer e, em seguida, escolha a opção "Open With Live Server", conforme mostrado nas figuras abaixo.
+
+![VS Code Live Server Go Live Icon](./assets/VSCode_Live_Server_GoLive_icon.png)
+
+![VS Code Live Server Go Live Icon](./assets/VSCode_Live_Server_Open_with_option.png)
+
+A extensão Live Server cria um "Servidor Web" com a pasta do seu projeto Hello World sendo a pasta root deste servidor e abre uma janela de aviso informando a porta em que o Servidor Web está disponibilizando o serviço web: 5500. Feche esta janela de aviso.
+
+![VS Code Live Server Go Live Icon](./assets/VSCode_Live_Server_GoLive_port.png)
+
+1.12. Para visualizar sua primeira página web clique na "Web Browser Tab" para testar sua página na mesma janela do seu navegador já aberto ou clique na "Web Browser Placeholder Tab" para testar sua página em outra janela do seu navegdor padrão ou copie a URL gerada pela "Web Browser Placeholder Tab" para testar em outro navegador no seu dispositivo/computador.  
 
