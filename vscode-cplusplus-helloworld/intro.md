@@ -16,7 +16,7 @@ Em três passos, você irá criar o código do Hello World utilizando a linguage
 Para iniciantes na programação C++ no Ubuntu Linux.
 Necessário conhecimento prévio dos comandos de Shell Linux.
 
-## Table of Contents
+## Índice
 
 Este cenário não está relacionado com nenhum outro.
 
