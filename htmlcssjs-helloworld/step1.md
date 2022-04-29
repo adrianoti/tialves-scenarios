@@ -1,12 +1,12 @@
 # Instalar a Extensão Live Server
 
-1.1. Na tela ao lado, clique na Tab IDE, conforme mostrado na figura abaixo, para carregar e acessar o VS Code. Caso não carregue automaticamente, clique em "Display port".
+1.1. Clique na Tab IDE, conforme mostrado na figura abaixo, para carregar e acessar o VS Code. Caso não carregue automaticamente, clique em "Display port".
 
 ![VS Code IDE Tab](./assets/Katacoda_Iframe_IDE_VSCode_Tab.png)
 
 1.2. No VS Code, clique no ícone referente a opção "Extensions", no menu lateral direito.
 
-![VS Code Menu Extensions](./assets/VSCode_menu_Extensions.png)
+![VS Code Menu Extensions](./assets/VSCode_menu_Extensions_option.png)
 
 1.3. Em "EXTENSIONS: MARKETPLACE", pesquise por "Live Server", selecione e instale a extensão Live Server por Ritwick Dey clicando em "Install".
 
