@@ -1,5 +1,5 @@
 {
-  "title": "VS Code HTML CSS JS",
+  "title": "HTML CSS JS VS Code Hello World",
   "description": "A simple scenario for HTML, CSS e JS programming using VS Code.",
   "difficulty": "Beginner",
   "time": "5 minutes",
@@ -27,7 +27,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "showide": true
   },
   "backend": {
     "imageid": "ubuntu:2004"
