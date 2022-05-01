@@ -3,7 +3,7 @@
 Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicionando estilo (CSS) e lógica ou automação (JS).
 
 
-```html
+<pre><code class="language-html">
 
 <!DOCTYPE html>
 <html lang="en">
@@ -109,4 +109,4 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
 </body>
 </html>
 
-```
+</code></pre>
