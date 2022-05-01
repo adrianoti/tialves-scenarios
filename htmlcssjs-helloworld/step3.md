@@ -2,16 +2,24 @@
 
 Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicionando estilo (CSS) e lógica ou automação (JS).
 
+3.1. Modifique o código do seu BODY conforme o código abaixo.
 
-<pre>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+```html
+<body>
 
+    <span id="containerSpan" class="containerSpan"> 
+        <span id="textSpan" class="textSpan"> Hello World! </span>
+        <span id="envelopSpan" class="envelopSpan">  </span>  
+    </span>
+    <div id="containerButton" class="containerButton">
+        <button type="button" class="restart" onclick="myFunction()"> repeat </button>
+    </div>
+</body>
+```
+
+3.2. Insira o seguinte código CSS dentro das tags HEAD.
+
+```html
     <style>
         body, html{
             height: 98%;
@@ -73,7 +81,11 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
             color: grey;
         }
     </style>
+```
 
+3.3. Insira o seguinte código JS dentro das tags HEAD.
+
+```js
     <script>
     
         function myFunction() {
@@ -93,18 +105,9 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
             
         }
     </script>
-
+```
 
 </head>
-<body>
 
-    <span id="containerSpan" class="containerSpan"> 
-        <span id="textSpan" class="textSpan"> Hello World! </span>
-        <span id="envelopSpan" class="envelopSpan">  </span>  
-    </span>
-    <div id="containerButton" class="containerButton">
-        <button type="button" class="restart" onclick="myFunction()"> repeat </button>
-    </div>
-</body>
 </html>
 </pre>
