@@ -1,5 +1,7 @@
 # Criando sua Primeira Página Web e Visualizando-a
 
+Agora vamos criar uma página Web utilizando HTML e visualizá-la em um browser integrado ou em qualquer browser instalado em seu computador utilizando a extensão Live Server.  
+
 # Criando sua primeira página Web: index.html no VS Code
 
 2.1. No VS Code Explorer, na área HELLOWORLD, clicar no ícone referente a "Novo Arquivo". Em seguida, digite o nome do seu arquivo de código HTML: index.html e tecle ENTER.
