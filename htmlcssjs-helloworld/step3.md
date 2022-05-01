@@ -4,6 +4,7 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
 
 
 ```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,13 +23,13 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
             position: relative;
             flex-wrap: wrap;
             width: 98.5%;
-            justify-content: center; 
+            justify-content: center;
         }
 
         .containerSpan{
-            display: block; 
-            align-items:center; 
-            position: absolute; 
+            display: block;
+            align-items:center;
+            position: absolute;
             align-self: center; 
             font-size: 15vmin;
             font-weight: 1000;
@@ -41,7 +42,7 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
         }
 
         .envelopSpan {
-            position: absolute; 
+            position: absolute;
             width: 100%;
             height: 100%;
             left: 0;
@@ -54,13 +55,13 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
 
 
         .containerButton {
-            display: block; 
+            display: block;
             position: absolute; 
-            align-self: flex-end; 
+            align-self: flex-end;
             z-index: 100;
         }
 
-        .repeatButton{
+        .restart {
             font-size: 12px;
             bottom: 0;
             left: 0;
@@ -75,20 +76,22 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
     </style>
 
     <script>
+    
         function myFunction() {
 
-            var envelop = document.querySelector('.envelopSpan')
-            var counter = 100;
+            var temp = document.querySelector('.envelopSpan');
             var transform = 'scaleX(1)';
+            var counter = 100;
             var i = setInterval(function(){
-                counter--;s
+                counter--;
                 var t = counter / 100;
                 transform = 'scaleX('+t+')';
-                envelop.style.transform = transform;
+                temp.style.transform = transform;
                 if(counter === 0) {
                     clearInterval(i);
                 }
             }, 20)
+            
         }
     </script>
 
@@ -101,8 +104,9 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
         <span id="envelopSpan" class="envelopSpan">  </span>  
     </span>
     <div id="containerButton" class="containerButton">
-        <button type="button" class="repeatButton" onclick="myFunction()"> repeat </button>
+        <button type="button" class="restart" onclick="myFunction()"> repeat </button>
     </div>
 </body>
 </html>
+
 ```
