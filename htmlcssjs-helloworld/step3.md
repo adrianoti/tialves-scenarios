@@ -2,22 +2,21 @@
 
 Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicionando estilo (CSS) e lógica ou automação (JS).
 
-3.1. Modifique o código do seu BODY conforme o código abaixo.
+3.1. Modifique o código entre as tags "<"body">" e "<\"body">" (sem as aspas), conforme o código abaixo.
 
 ```html
 <body>
-
-    <span id="containerSpan" class="containerSpan"> 
-        <span id="textSpan" class="textSpan"> Hello World! </span>
-        <span id="envelopSpan" class="envelopSpan">  </span>  
+    <span class="containerSpan"> 
+        <span class="textSpan"> Hello World! </span>
+        <span class="revealSpan">  </span>  
     </span>
-    <div id="containerButton" class="containerButton">
-        <button type="button" class="restart" onclick="myFunction()"> repeat </button>
+    <div class="containerButton">
+        <button type="button" class="repeatButton" onclick="revealFunction()"> repeat </button>
     </div>
 </body>
 ```
 
-3.2. Insira o seguinte código CSS dentro das tags HEAD.
+3.2. Insira o seguinte código CSS entre as tags "<"head">" e "<\"head">" (sem as aspas).
 
 ```html
     <style>
@@ -37,7 +36,7 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
             display: block;
             align-items:center;
             position: absolute;
-            align-self: center; 
+            align-self: center;
             font-size: 15vmin;
             font-weight: 1000;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,7 +47,7 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
             opacity: 1;
         }
 
-        .envelopSpan {
+        .revealSpan {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -63,18 +62,21 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
 
         .containerButton {
             display: block;
-            position: absolute; 
+            position: absolute;
             align-self: flex-end;
             z-index: 100;
         }
 
-        .restart {
+        .repeatButton {
             font-size: 12px;
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: #fff;
+            background-color: #ffffff;
             border-bottom: 1px dotted grey;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
             padding: 0;
             margin: 0 auto 2%;
             cursor: pointer;
@@ -83,14 +85,14 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
     </style>
 ```
 
-3.3. Insira o seguinte código JS dentro das tags HEAD.
+3.3. Insira o seguinte código JS entre as tags "<"head">" e "<\"head">" (sem as aspas).
 
 ```js
     <script>
     
-        function myFunction() {
+        function revealFunction() {
 
-            var temp = document.querySelector('.envelopSpan');
+            var temp = document.querySelector('.revealSpan')
             var transform = 'scaleX(1)';
             var counter = 100;
             var i = setInterval(function(){
@@ -102,7 +104,6 @@ Neste passo, vamos entender como o CSS e o JS modificam sua página web, adicion
                     clearInterval(i);
                 }
             }, 20)
-            
         }
     </script>
 ```
